@@ -8,10 +8,10 @@ image_resource:
     tag: latest
     
 inputs:
-  - name: sample-app
+  - name: concourse-java-maven-test-prj1
   
 outputs:
   - name: resource-app
   
 run:
-  path: sample-app/ci/build.sh
+  path: concourse-java-maven-test-prj1/ci/build.sh
